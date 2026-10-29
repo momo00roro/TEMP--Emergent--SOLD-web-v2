@@ -1,0 +1,125 @@
+{
+  "project_info": {
+    "name": "SOLD AI Studio",
+    "domain": "sold.com.sg",
+    "tagline": "AI-First Branding & Digital Design Studio in Singapore",
+    "stats": {
+      "experience_years": 14,
+      "brands_built": 124,
+      "projects_completed": 463,
+      "awards": ["MUSE Creative Awards", "TITAN Property & Tech Awards", "World Brand Design Society (WBDS)", "Behance Featured"]
+    },
+    "clients": ["OCBC", "UOB", "Nippon Paint", "Selleys", "Cordlife", "FairPrice", "BNP Paribas", "BAT", "Boston Scientific", "Quotz"],
+    "key_works": ["KOBA", "Radiant Health", "Cordlife Moms Up", "SgCarMart Quotz"],
+    "reference_style": "Puture (puture.co.kr/en) - Neo-grotesk dark tech aesthetic, electric blue light beam, floating 3D tiles, perspective crosshair grid, chapter indicators, text highlight blocks, pinned terminal process."
+  },
+  "theme": {
+    "mode": "dark",
+    "primary_background": "#03060F",
+    "secondary_background": "#070D1E",
+    "card_background_dark": "#0B132B",
+    "card_background_light": "#FFFFFF",
+    "accent_blue": "#2D6BFF",
+    "accent_blue_glow": "#0055FF",
+    "highlight_rect_blue": "#1E40AF",
+    "text_primary": "#F8FAFC",
+    "text_secondary": "#94A3B8",
+    "text_dark_card": "#0F172A",
+    "border_subtle": "rgba(255, 255, 255, 0.08)",
+    "border_blue_glow": "rgba(45, 107, 255, 0.4)"
+  },
+  "typography": {
+    "headline_font": "Helvetica Neue, Arial, sans-serif",
+    "body_font": "Inter, system-ui, sans-serif",
+    "mono_font": "JetBrains Mono, SFMono-Regular, monospace",
+    "hierarchy": {
+      "hero_title": "text-4xl sm:text-5xl lg:text-6xl font-light tracking-tight text-white leading-tight",
+      "section_title": "text-2xl sm:text-3xl lg:text-4xl font-light tracking-tight text-white",
+      "card_title": "text-xl sm:text-2xl font-medium text-slate-900 dark:text-white",
+      "body_text": "text-base text-slate-300 leading-relaxed",
+      "mono_label": "font-mono text-xs uppercase tracking-widest text-blue-400"
+    },
+    "rules": [
+      "DO NOT use Inter for main headings; use light-weight Helvetica/Sans display (font-light text-4xl to text-6xl) with tight tracking.",
+      "Use JetBrains Mono or SFMono for tags, chapter tags [01][STUDIO], process terminal lines (> concept — ...), and project metrics.",
+      "Highlight key narrative words in the Manifesto section using solid electric blue inline rectangle background boxes with white text."
+    ]
+  },
+  "visual_enhancers": {
+    "hero_canvas": "Perspective 3D grid plane with '+' crosshair intersection markers, floating starfield dust, and right-aligned radial electric blue beam glow (#2D6BFF to transparent).",
+    "floating_3d_tiles": "CSS/Framer-motion powered 3D floating glossy rounded dark blue glass tiles with white line icons that orbit or gently hover around headline text.",
+    "chapter_indicator": "Fixed bottom-left indicator '01 CHAPTER ABOUT' / '02 CHAPTER SERVICES' updating dynamically on scroll.",
+    "mono_badge_chips": "Double mini box chips like [01][ABOUT] (blue mini box + white text box).",
+    "service_cards": "Light background white cards in dark theme sections containing light-blue grid illustration vector panels, blue icon tile, mono numbered '01', mono tag chips, and 'Learn more →' footer row.",
+    "process_pinned_step": "Pinned 3-step timeline with terminal-style code text '> concept — visual engineering' and animated progress percentage '10% -> 50% -> 100%'."
+  },
+  "layout_and_grids": {
+    "spacing_scale": "p-6 to p-12 for containers, py-20 to py-32 for sections",
+    "hero_grid": "Grid 12-column layout: 8 cols for kinetic headline & sub copy, 4 cols for key actions and project callouts.",
+    "bento_grid": "Asymmetric 3-column & 4-column bento layouts for Works and Services showcase with subgrid support.",
+    "nav_bar": "Fixed top bar with backdrop blur (bg-black/60 backdrop-blur-xl border-b border-white/10), top right links with plus indicators (About+, Works+, Process+, Studio+), KO/EN language toggle, and blue 'Start a project' CTA button."
+  },
+  "image_urls": {
+    "hero_abstract_3d": [
+      "https://images.unsplash.com/photo-1709626011485-6fe000ea2dbc?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://images.unsplash.com/photo-1733723509159-c07a6d2141c8?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://images.unsplash.com/photo-1671869203882-4831eea60268?crop=entropy&cs=srgb&fm=jpg&q=85"
+    ],
+    "featured_works": {
+      "koba": "https://images.unsplash.com/photo-1648134859211-4a1b57575f4e?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "radiant_health": "https://images.unsplash.com/photo-1560461396-ec0ef7bb29dd?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "cordlife_moms_up": "https://images.unsplash.com/photo-1561070791-36c11767b26a?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "sgcarmart_quotz": "https://images.unsplash.com/photo-1634084462412-b54873c0a56d?crop=entropy&cs=srgb&fm=jpg&q=85"
+    },
+    "architecture_and_brand": [
+      "https://images.unsplash.com/photo-1548248823-ce16a73b6d49?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://images.unsplash.com/photo-1617451588899-7ac8679908c7?crop=entropy&cs=srgb&fm=jpg&q=85"
+    ]
+  },
+  "routes_and_pages": [
+    {
+      "path": "/",
+      "name": "Home",
+      "components": ["KineticHero", "ManifestoHighlight", "ClientLogoMarquee", "StatsCounter", "ServiceCardsGrid", "SelectedWorksBento", "PinnedProcessTerminal", "AwardsShowcase", "TestimonialSlider", "EnquiryCTA"]
+    },
+    {
+      "path": "/studio",
+      "name": "Studio",
+      "components": ["StudioHeader", "14YearsStory", "MethodologyStack", "TeamValues", "AwardsFullList", "ClientGrid"]
+    },
+    {
+      "path": "/services",
+      "name": "Services",
+      "components": ["ServicesHero", "BrandStrategyDetail", "BrandIdentityDetail", "CreativeDirectionDetail", "UIUXDetail", "DigitalExperiencesDetail", "AIFirstSystemsDetail", "TechStackGrid"]
+    },
+    {
+      "path": "/works",
+      "name": "Works",
+      "components": ["WorksFilterableGrid", "CaseStudyCardList", "ClientLogoGrid"]
+    },
+    {
+      "path": "/works/:slug",
+      "name": "Work Detail",
+      "components": ["CaseStudyHero", "ClientOverview", "ProblemSolutionMatrix", "InteractiveUIPreview", "ResultsStats", "NextCaseStudyNav"]
+    },
+    {
+      "path": "/contact",
+      "name": "Contact",
+      "components": ["ContactHero", "EnquiryInteractiveForm", "OfficeLocationCard", "DirectEmailCopy"]
+    }
+  ],
+  "instructions_to_main_agent": [
+    "Implement Lenis smooth scrolling or smooth framer-motion scroll handlers for high fidelity motion pacing.",
+    "Set dark theme (#03060F background) globally in index.css and main wrapper with electric blue glows.",
+    "Ensure all interactive components (buttons, links, inputs, form filters, chapter indicators) have kebab-case data-testid attributes.",
+    "Form submission on /contact must save enquiries locally and call API endpoints with simulated success feedback toast using sonner.",
+    "Make full responsive layout with mobile drawer navigation, responsive text clamp sizes (ceiling max 6xl), and responsive grid columns."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Never use generic centered layouts or plain gradients; construct perspective grids, radial glows, and micro-animations.",
+    "Avoid default Inter for headings. Use Helvetica / Sans display light weight for main titles.",
+    "Always include visible Navigation bar with top-right actions and bottom-left dynamic chapter indicator.",
+    "Ensure hover states explicitly specify text color to prevent invisible dark text on dark backgrounds.",
+    "All forms must use customized Shadcn/UI inputs, selects, sliders, and checkboxes with validation."
+  ]
+}

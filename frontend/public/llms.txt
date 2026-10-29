@@ -1,0 +1,14 @@
+# SOLD AI Studio
+
+> An award-winning, AI-first branding and digital design studio in Singapore. SOLD creates brand identities, websites and digital experiences; AI keeps research traceable, brand knowledge close and delivery clear, while designers own every deliverable.
+
+## Pages
+- [Home](https://sold.com.sg/): studio overview, clients, services, selected work, AI-first method, testimonials, enquiry form
+- [Studio](https://sold.com.sg/studio/): story, founder Ronnie Chan, team, clients and awards
+- [Services](https://sold.com.sg/services/): brand strategy, brand identity, creative direction, UI/UX design, digital experiences, digital maintenance, AI-first systems
+- [Works](https://sold.com.sg/works/): case studies including KOBA (Japan), Radiant Health (Malaysia), Cordlife Moms Up, sgCarMart Quotz, Nippon Paint, Sunwheel (Norway)
+- [Contact](https://sold.com.sg/contact/): project enquiry form, office details
+
+## Contact
+- Email: hello@sold.com.sg
+- Office: 60 Paya Lebar Rd, #06-28, Singapore 409051
